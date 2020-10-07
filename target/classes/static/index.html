@@ -2,12 +2,31 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <title>Web App Starter</title>
 </head>
 <body>
-<p><a href ="/Person/">Users</a><p>
-<p><a href ="add.html">Add User</a><p>
-<p><a href ="modify.html">Modify User</a><p>
-<p><a href ="delete.html">Delete User</a><p>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>WEB</b> App</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+   	  <a href="/Person/" class="w3-bar-item w3-button">Users</a>
+      <a href="add.html" class="w3-bar-item w3-button">Add</a>
+      <a href="modify.html" class="w3-bar-item w3-button">Modify</a>
+      <a href="delete.html" class="w3-bar-item w3-button">Delete</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="webapp.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>WEB</b></span> <span class="w3-hide-small w3-text-light-grey">App</span></h1>
+  </div>
+</header>
 </body>
 </html>
